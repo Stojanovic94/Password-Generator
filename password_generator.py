@@ -197,6 +197,8 @@ root.geometry("500x350")
 root.configure(bg="white")
 root.resizable(False, False)  # Prevent window resizing
 
+
+
 # Set ttk style for a modern look
 style = ttk.Style(root)
 style.theme_use('clam')
