@@ -2,8 +2,6 @@ import tkinter as tk
 from tkinter import ttk
 import tkinter.messagebox
 import random, string
-
-
 # Global configuration variables
 no_of_options = 0
 length_value = 7
@@ -279,6 +277,7 @@ btn_copy = ttk.Button(output_frame, text="Copy", command=copyclip)
 btn_copy.grid(row=0, column=2, padx=10, pady=5)
 
 root.mainloop()
+
 
 
 
