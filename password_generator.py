@@ -3,6 +3,7 @@ from tkinter import ttk
 import tkinter.messagebox
 import random, string
 
+
 # Global configuration variables
 no_of_options = 0
 length_value = 7
